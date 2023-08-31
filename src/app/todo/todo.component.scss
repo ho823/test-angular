@@ -1,0 +1,18 @@
+#create-todo {
+  margin:  3rem;
+  .task-list {
+    list-style: none;
+    display: flex;
+    font-family: 'Klee One', cursive;
+    .remove-task {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      padding: 1rem;
+    }
+  } 
+
+  
+}
+
+

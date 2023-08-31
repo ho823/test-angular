@@ -1,0 +1,42 @@
+#all-cards {
+  display: flex;
+  justify-content: space-around;
+}
+.card-border {
+  border: 2px solid;
+  border-image-slice: 1;
+}
+.border-gradient {
+  border-image-source: linear-gradient(to left, #d2f8df, #fdebff);
+}
+.card {
+  width: 25%;
+    
+  .img-content {
+    display: grid;
+    place-items: center ;
+    padding: 0.5rem 0 0.5rem 0;
+  }
+  
+  .text-content {
+    padding: 0.8rem;
+
+    .card-title {
+      font-variant-caps: small-caps;
+      letter-spacing: 0.3rem;
+      background-image: linear-gradient(60deg, #9e0d53, #0f9fb2);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    .card-text {
+      text-indent: 3%;
+    }
+  }
+  #btn-card {
+    border: rgb(8, 36, 59) solid 1px;
+    background-color: transparent;
+    padding: .70rem;
+    cursor: pointer;
+  }
+}

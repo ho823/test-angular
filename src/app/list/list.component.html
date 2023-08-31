@@ -1,0 +1,26 @@
+<div>
+    <h2 id="all-todo">All todo</h2>
+    <div id="container-todo">
+    <div id="todo-list">
+      <ul>
+        <li class="task-list" *ngFor="let item of todo$ | async ; trackBy: trackArray; let number = index">
+          <input class="checkbox-color" type="checkbox" name="task">
+          <label for="task" class="strike-out">{{item}}</label>
+        </li>
+      </ul>
+    </div>
+
+    <div id="todo-list">
+      <ul>
+        <li class="task-list" *ngFor="let item of todo$ | async ; trackBy: trackArray; let number = index">
+          <input class="checkbox-color" type="checkbox" name="task">
+          <label for="task" class="strike-out">{{item}}</label>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  </div>
+  
+  
+  
